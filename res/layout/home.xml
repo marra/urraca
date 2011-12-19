@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:stretchColumns="1"
+    android:background="#FFFFFF" >
+
+    <TableRow>
+
+        <ImageView
+			style="@style/HeaderIcon"
+            android:src="@drawable/mercadopago"
+             />
+        
+    </TableRow>
+    
+    <View 
+        style="@style/HeaderLine" />
+
+    
+    <TableRow>
+        <TextView
+            style="@style/HomeTitle"
+            android:text="Mi cuenta" />        
+    </TableRow>
+
+    <TableRow>       
+        <TextView
+            style="@style/HomeUserName"
+            android:text="Diego Cabrera" />                
+    </TableRow>
+    
+    <TableRow>
+        <TextView            
+            style="@style/HomeUserBalance"
+            android:text="Mi saldo de MP: $ 0.00 AR" />        
+    </TableRow>        
+
+    
+    <View 
+    	style="@style/HomeLine" />
+
+    
+    <TableRow>
+        
+        <ImageView            
+            android:paddingTop="10dp"
+			android:scaleType="fitCenter"
+			android:layout_width="80dip"
+			android:layout_height="80dip"
+            android:src="@drawable/eviar_pago"
+             />
+        
+         <ImageView            
+            android:paddingTop="10dp"
+			android:scaleType="fitCenter"
+			android:layout_width="80dip"
+			android:layout_height="80dip"
+            android:src="@drawable/solicitar_dinero"
+             />
+                
+    </TableRow>  
+    
+        
+    <TableRow>
+        <TextView
+            android:paddingLeft="50dp"
+        	android:textColor="#0D659D"               
+            android:text="Enviar pago" />
+        
+        <TextView
+            android:paddingLeft="30dp"
+        	android:textColor="#0D659D"               
+            android:text="Solicitar dinero" />
+                
+    </TableRow>  
+
+        
+</TableLayout>

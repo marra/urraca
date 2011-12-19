@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        
+    <style name="HeaderIcon">
+        <item name="android:layout_gravity">left</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:paddingTop">5dip</item>
+        <item name="android:paddingBottom">5dip</item>
+    </style>    
+    
+            
+    <style name="HeaderLine">
+        <item name="android:layout_height">5dip</item>
+        <item name="android:background">#0D659D</item>
+    </style>
+    
+    <style name="HomeTitle">
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:textColor">#0D659D</item>
+        <item name="android:textStyle">bold</item>                     
+    </style>
+
+    <style name="HomeUserName">
+        <item name="android:paddingLeft">10dip</item>        
+        <item name="android:paddingTop">2dip</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:textColor">#0D659D</item>                     
+    </style>        
+        
+
+    <style name="HomeUserBalance">
+        <item name="android:paddingLeft">10dip</item>                
+        <item name="android:paddingTop">2dip</item>        
+        <item name="android:paddingBottom">10dip</item>
+        <item name="android:textColor">#0D659D</item>                  
+    </style>                
+        
+    <style name="HomeLine">
+        <item name="android:layout_height">2dip</item>
+        <item name="android:background">#FF909090</item>
+    </style>
+            
+</resources>
