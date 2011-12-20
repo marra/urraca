@@ -37,13 +37,13 @@
     </TableRow>        
 
     
-    <View 
-    	style="@style/HomeLine" />
+    <View style="@style/HomeLine" />
 
     
     <TableRow>
         
         <ImageView            
+			android:id="@+id/enviarPago"            
             android:paddingTop="10dp"
 			android:scaleType="fitCenter"
 			android:layout_width="80dip"

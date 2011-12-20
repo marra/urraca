@@ -23,7 +23,12 @@
             android:name="HomeActivity"
             android:theme="@android:style/Theme.NoTitleBar">
         </activity>
-            
+
+        <activity 
+            android:name="PaymentActivity"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
     </application>
 
 </manifest>
