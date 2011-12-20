@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:stretchColumns="1"
+    android:background="#FFFFFF" >
+
+    <TableRow>
+
+        <ImageView
+			style="@style/HeaderIcon"
+            android:src="@drawable/mercadopago"
+             />
+        
+        <TextView
+            style="@style/HomeTitle"
+            android:gravity="right"
+            android:text="Saldo $ 0.00 AR "
+            />
+        
+    </TableRow>
+    
+    <View style="@style/HeaderLine" />
+
+
+	<TextView
+    	style="@style/HomeTitle"
+        android:gravity="center"
+        android:textSize="22dp"
+        android:text="Enviar Pago"
+		/>
+    
+    <View style="@style/HomeLine" />
+        
+    
+   	<TextView
+        android:text="A:"
+		/>
+   	
+    <EditText
+    	android:id="@+id/editEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+		android:width="250dp"
+		android:hint="Enviar a: correo electrónico"
+		android:inputType="textEmailAddress">
+			
+        <requestFocus />
+	</EditText>
+           	
+
+   	<TextView android:text="Importe:"/>
+   	
+    <EditText
+    	android:id="@+id/editEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+		android:width="250dp"
+		android:hint="Importe">
+			
+        <requestFocus />
+	</EditText>  
+	
+    <View style="@style/HomeLine" />
+    
+    <View android:layout_height="40dp"/>
+    
+    
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        
+        android:text="Revisar" />	
+    
+</TableLayout>
