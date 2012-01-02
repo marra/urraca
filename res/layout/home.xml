@@ -9,7 +9,7 @@
 
         <ImageView
 			style="@style/HeaderIcon"
-            android:src="@drawable/mercadopago"
+            android:src="@drawable/mercadopago" 
              />
         
     </TableRow>
